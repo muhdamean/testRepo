@@ -1,0 +1,22 @@
+//Create new repo from the command line
+$ git init
+$ git add README.md
+$ git commit -m "fisrt commit"
+$ git remote add origin https://github.com/username/repo.git
+$ git push -u origin master
+
+
+//Or push an existing repository from command line
+$ git remote add origin https://github.com/username/repo.git
+$ git push -u origin master
+
+
+
+//Clone
+$ git clone https://github.com/muhdamean/Spoon-Knife
+
+
+$ git remote add upstream https://github.com/octocat/Spoon-Knife
+$ git fetch upstream
+$ git pull upstream master
+$ git remote -v
